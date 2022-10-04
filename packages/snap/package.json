@@ -35,7 +35,7 @@
     "webpack": "webpack"
   },
   "dependencies": {
-    "@metamask/detect-provider": "^1.2.0",
+    "@metamask/detect-provider": "^2.0.0",
     "@metamask/key-tree": "^4.0.0",
     "@metamask/snaps-webpack-plugin": "^0.18.1",
     "@shapeshiftoss/caip": "^6.6.0",
