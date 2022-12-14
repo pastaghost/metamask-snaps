@@ -5579,6 +5579,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@findeth/abi@npm:^0.3.0":
+  version: 0.3.1
+  resolution: "@findeth/abi@npm:0.3.1"
+  dependencies:
+    keccak: ^3.0.0
+  checksum: 2ae61476cd4639dad81e41ca7c28e63478dd74aa86c328fc8871442c73864a57e37822da819aca08f9b15656d579891065f48ccc3f09235069049f2d1aa89182
+  languageName: node
+  linkType: hard
+
 "@fioprotocol/fiojs@npm:1.0.1":
   version: 1.0.1
   resolution: "@fioprotocol/fiojs@npm:1.0.1"
@@ -6240,16 +6249,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/eslint-config-typescript@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "@metamask/eslint-config-typescript@npm:9.0.1"
+"@metamask/eslint-config-typescript@npm:^11.0.2":
+  version: 11.0.2
+  resolution: "@metamask/eslint-config-typescript@npm:11.0.2"
   peerDependencies:
-    "@metamask/eslint-config": ^9.0.0
-    "@typescript-eslint/eslint-plugin": ^4.20.0
-    "@typescript-eslint/parser": ^4.20.0
-    eslint: ^7.23.0
-    typescript: ^4.0.7
-  checksum: df6c630e285b1a125caffce1988c23b3ba0f76507c337a849fb30fb5f9b9df4bb563419f9bb2ec7e39072601b7e95a4d5be52ddff1643bde65206f33d73440d3
+    "@metamask/eslint-config": ^11.0.0
+    "@typescript-eslint/eslint-plugin": ^5.42.1
+    "@typescript-eslint/parser": ^5.42.1
+    eslint: ^8.27.0
+    typescript: ~4.8.4
+  checksum: d0354c56b0119609f931b0c7627a78969b4626c5da45a09bfe2b32ea51677c7c5625c7f55cbb65be6530e36ccc525f131816972dc4c6bcc3a11cf327f45d4ddb
   languageName: node
   linkType: hard
 
@@ -7081,6 +7090,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shapeshiftoss/hdwallet-core@npm:^1.29.0":
+  version: 1.41.0
+  resolution: "@shapeshiftoss/hdwallet-core@npm:1.41.0"
+  dependencies:
+    eip-712: ^1.0.0
+    eventemitter2: ^5.0.1
+    lodash: ^4.17.21
+    rxjs: ^6.4.0
+    type-assertions: ^1.1.0
+  checksum: 0d3ba4a30c736a51434ab8e96d7476e74f070c81e02724da41dd1228e70f1a2dd247d81d350eaeb4d466346303cc8c5015c332bbc81f0b554115bbba2300a3a9
+  languageName: node
+  linkType: hard
+
 "@shapeshiftoss/hdwallet-core@patch:@shapeshiftoss/hdwallet-core@npm:1.29.0#.yarn/patches/@shapeshiftoss-hdwallet-core-npm-1.29.0-ce03499ac8.patch::locator=root%40workspace%3A.":
   version: 1.29.0
   resolution: "@shapeshiftoss/hdwallet-core@patch:@shapeshiftoss/hdwallet-core@npm%3A1.29.0#.yarn/patches/@shapeshiftoss-hdwallet-core-npm-1.29.0-ce03499ac8.patch::version=1.29.0&hash=cb379d&locator=root%40workspace%3A."
@@ -7168,7 +7190,7 @@ __metadata:
     "@metamask/eslint-config": ^8.0.0
     "@metamask/eslint-config-jest": ^8.0.0
     "@metamask/eslint-config-nodejs": ^8.0.0
-    "@metamask/eslint-config-typescript": ^9.0.1
+    "@metamask/eslint-config-typescript": ^11.0.2
     "@metamask/key-tree": ^4.0.0
     "@metamask/rollup-plugin-snaps": ^0.18.1
     "@metamask/snap-types": ^0.18.1
@@ -12672,6 +12694,17 @@ __metadata:
   version: 1.1.1
   resolution: "ee-first@npm:1.1.1"
   checksum: 1b4cac778d64ce3b582a7e26b218afe07e207a0f9bfe13cc7395a6d307849cfe361e65033c3251e00c27dd060cab43014c2d6b2647676135e18b77d2d05b3f4f
+  languageName: node
+  linkType: hard
+
+"eip-712@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "eip-712@npm:1.0.0"
+  dependencies:
+    "@findeth/abi": ^0.3.0
+    "@noble/hashes": ^1.0.0
+    superstruct: ^0.15.3
+  checksum: 44692e48dc314860daf6248bf35b5ad0036ca805dc11522d5e7aef6bb242c0eb9fe8b88235a337b898a1aef532cf62abdd582d7fe2480847ccad4d64a71bcb2a
   languageName: node
   linkType: hard
 
@@ -23104,6 +23137,7 @@ __metadata:
     "@metamask/detect-provider": ^1.2.0
     "@reduxjs/toolkit": ^1.8.3
     "@shapeshiftoss/caip": ^6.7.1
+    "@shapeshiftoss/hdwallet-core": ^1.29.0
     "@shapeshiftoss/logger": ^1.1.2
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.0.1
@@ -24383,6 +24417,13 @@ __metadata:
   dependencies:
     minimist: ^1.1.0
   checksum: 8359df72e9a2d03c35702ba58e49cac04daae8f27dff26837e12687c7d10cb800a036fd33fdc5eb0e8c24fb25d804f657fe8bde18dd3dd6ec7dab8eff7aac27e
+  languageName: node
+  linkType: hard
+
+"superstruct@npm:^0.15.3":
+  version: 0.15.5
+  resolution: "superstruct@npm:0.15.5"
+  checksum: 6d1f5249fee789424b7178fa0a1ffb2ace629c5480c39505885bd8c0046a4ff8b267569a3442fa53b8c560a7ba6599cf3f8af94225aebeb2cf6023f7dd911050
   languageName: node
   linkType: hard
 
